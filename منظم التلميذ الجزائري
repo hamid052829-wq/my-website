@@ -1,0 +1,401 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:8158/index.html
+Subject: =?utf-8?Q?=D9=85=D9=86=D8=B8=D9=85=20=D8=A7=D9=84=D8=AA=D9=84=D9=85=D9=8A?=
+ =?utf-8?Q?=D8=B0=20=D8=A7=D9=84=D8=AC=D8=B2=D8=A7=D8=A6=D8=B1=D9=8A?=
+Date: Thu, 01 Oct 2026 11:31:13 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--r49j95LwXnafFg4OEYL8FwMY5KfZkM5IhLKLu2fYUc----"
+
+
+------MultipartBoundary--r49j95LwXnafFg4OEYL8FwMY5KfZkM5IhLKLu2fYUc----
+Content-Type: text/html
+Content-ID: <frame-C64AC68399E86EC9FBE70D40E55F88AE@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://localhost:8158/index.html
+
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-c7f57155-e8fa-453a-99d3-2fbf1d164179@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-bed6d5ed-d0cf-4e84-8fb5-4b4ab586b5cb@mhtml.blink" /><!-- Injected code, this is not present in original code --><meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+    
+    
+    <!-- Injected code, this is not present in original code -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منظم التلميذ الجزائري</title>
+
+
+</head><c-toggler style="transform: translate(2px, 357px); display: none;"></c-toggler>
+
+<body>
+
+<header>
+    <h1>📚 منظم التلميذ الجزائري</h1>
+    <div class="creator">
+        من صنع تلميذ متوسطة 19 ماي 1956 🇩🇿
+    </div>
+    <div class="clock" id="clock">الساعة الآن: 12:31:12</div>
+</header>
+
+<div class="container">
+
+<!-- المواد -->
+<div class="card">
+    <h2>📖 المواد الدراسية</h2>
+
+    <div id="subjects"><div class="subject">
+            <input value="الرياضيات">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="اللغة العربية">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="الفرنسية">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="الإنجليزية">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="العلوم الطبيعية">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="الفيزياء">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="التاريخ والجغرافيا">
+            <button class="danger">
+                حذف
+            </button>
+        </div><div class="subject">
+            <input value="التربية الإسلامية">
+            <button class="danger">
+                حذف
+            </button>
+        </div></div>
+
+    <button class="secondary">
+        ➕ إضافة مادة
+    </button>
+</div>
+
+<!-- البرنامج الأسبوعي -->
+<div class="card">
+    <h2>🗓️ برنامج الأسبوع</h2>
+
+    <label>اختر اليوم</label>
+
+    <div class="days">
+        <button class="dayBtn">الأحد</button>
+        <button class="dayBtn">الإثنين</button>
+        <button class="dayBtn">الثلاثاء</button>
+        <button class="dayBtn">الأربعاء</button>
+        <button class="dayBtn">الخميس</button>
+        <button class="dayBtn">الجمعة</button>
+        <button class="dayBtn">السبت</button>
+    </div>
+
+    <br>
+
+    <label>المادة</label>
+    <select id="subjectSelect"><option value="الرياضيات">الرياضيات</option><option value="اللغة العربية">اللغة العربية</option><option value="الفرنسية">الفرنسية</option><option value="الإنجليزية">الإنجليزية</option><option value="العلوم الطبيعية">العلوم الطبيعية</option><option value="الفيزياء">الفيزياء</option><option value="التاريخ والجغرافيا">التاريخ والجغرافيا</option><option value="التربية الإسلامية">التربية الإسلامية</option></select>
+
+    <label>وقت البداية</label>
+    <input type="time" id="startTime">
+
+    <label>وقت النهاية</label>
+    <input type="time" id="endTime">
+
+    <label>نوع المهمة</label>
+    <select id="taskType">
+        <option>مراجعة الدرس</option>
+        <option>حل تمارين</option>
+        <option>حفظ</option>
+        <option>قراءة</option>
+        <option>تحضير للغد</option>
+        <option>اختبار قصير</option>
+    </select>
+
+    <button class="primary">
+        ➕ إضافة إلى البرنامج
+    </button>
+</div>
+
+<!-- إنشاء برنامج يومي -->
+<div class="card">
+    <h2>⭐ برنامجي اليومي</h2>
+
+    <p>
+        التطبيق يرتب لك المهام حسب الوقت ويعرض لك ما يجب فعله اليوم.
+    </p>
+
+    <button class="primary">
+        🚀 إنشاء برنامج اليوم
+    </button>
+
+    <div id="todaySchedule"><div class="empty">
+                لا توجد مهام مضافة لهذا اليوم.
+                <br>
+                أضف برنامجك من قسم برنامج الأسبوع.
+            </div></div>
+
+    <div class="progressBox">
+        <div class="progress" id="progress" style="width: 0%;"></div>
+    </div>
+
+    <p id="progressText" class="small">التقدم: 0%</p>
+</div>
+
+<!-- إضافة مهمة سريعة -->
+<div class="card">
+    <h2>➕ مهمة سريعة</h2>
+
+    <label>المهمة</label>
+    <input id="quickTask" placeholder="مثلا: مراجعة الرياضيات">
+
+    <label>الوقت</label>
+    <input type="time" id="quickTime">
+
+    <button class="primary">
+        إضافة المهمة
+    </button>
+</div>
+
+<!-- المنبه -->
+<div class="card">
+    <h2>⏰ المنبه</h2>
+
+    <p>
+        عند وصول وقت إحدى المهام، سيظهر تنبيه داخل التطبيق ويحاول الهاتف تشغيل صوت التنبيه.
+    </p>
+
+    <button class="secondary">
+        🔔 تفعيل المنبه
+    </button>
+
+    <p id="alarmStatus" class="small">
+        المنبه غير مفعل
+    </p>
+</div>
+
+<!-- حفظ -->
+<div class="card">
+    <h2>💾 البيانات</h2>
+
+    <button class="secondary">
+        💾 حفظ البرنامج
+    </button>
+
+    <button class="danger">
+        🗑️ حذف كل البيانات
+    </button>
+</div>
+
+</div>
+
+<div id="notification"></div>
+
+
+
+
+</body></html>
+------MultipartBoundary--r49j95LwXnafFg4OEYL8FwMY5KfZkM5IhLKLu2fYUc----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-bed6d5ed-d0cf-4e84-8fb5-4b4ab586b5cb@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; font-family: Arial, Tahoma, sans-serif; }
+
+body { margin: 0px; background: linear-gradient(135deg, rgb(232, 245, 233), rgb(227, 242, 253)); color: rgb(23, 32, 42); }
+
+header { background: linear-gradient(135deg, rgb(8, 127, 91), rgb(11, 110, 79)); color: white; padding: 20px 12px; text-align: center; box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px; }
+
+header h1 { margin: 0px 0px 8px; font-size: 25px; }
+
+.creator { font-size: 14px; opacity: 0.95; }
+
+.container { max-width: 800px; margin: auto; padding: 15px; }
+
+.card { background: white; border-radius: 18px; padding: 18px; margin-bottom: 16px; box-shadow: rgba(0, 0, 0, 0.133) 0px 4px 15px; }
+
+h2 { margin-top: 0px; color: rgb(8, 127, 91); font-size: 21px; }
+
+label { display: block; margin: 10px 0px 6px; font-weight: bold; }
+
+input, select, textarea { width: 100%; padding: 12px; border: 2px solid rgb(221, 221, 221); border-radius: 10px; font-size: 16px; outline: none; }
+
+input:focus, select:focus { border-color: rgb(8, 127, 91); }
+
+button { border: 0px; border-radius: 11px; padding: 12px 16px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 10px; }
+
+.primary { background: rgb(8, 127, 91); color: white; width: 100%; }
+
+.secondary { background: rgb(233, 247, 241); color: rgb(8, 127, 91); }
+
+.danger { background: rgb(255, 231, 231); color: rgb(198, 40, 40); }
+
+.subject { display: flex; gap: 8px; margin-bottom: 8px; }
+
+.subject input { flex: 1 1 0%; }
+
+.days { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+
+.dayBtn { background: rgb(241, 243, 245); color: rgb(51, 51, 51); }
+
+.dayBtn.active { background: rgb(8, 127, 91); color: white; }
+
+.schedule { border-right: 5px solid rgb(8, 127, 91); background: rgb(248, 255, 251); padding: 13px; margin: 10px 0px; border-radius: 10px; }
+
+.schedule strong { color: rgb(8, 127, 91); }
+
+.task { display: flex; align-items: center; gap: 10px; background: rgb(247, 247, 247); padding: 12px; border-radius: 12px; margin: 8px 0px; }
+
+.task input[type="checkbox"] { width: 22px; height: 22px; }
+
+.task.done { opacity: 0.55; text-decoration: line-through; }
+
+.time { font-size: 20px; font-weight: bold; color: rgb(8, 127, 91); }
+
+.empty { text-align: center; color: rgb(119, 119, 119); padding: 20px; }
+
+.progressBox { background: rgb(238, 238, 238); height: 18px; border-radius: 20px; overflow: hidden; margin-top: 10px; }
+
+.progress { height: 100%; width: 0%; background: rgb(8, 127, 91); transition: 0.3s; }
+
+#notification { position: fixed; left: 15px; right: 15px; bottom: 15px; background: rgb(23, 32, 42); color: white; padding: 15px; border-radius: 15px; display: none; z-index: 100; text-align: center; }
+
+.clock { font-size: 18px; font-weight: bold; margin-top: 5px; }
+
+.small { font-size: 13px; color: rgb(119, 119, 119); }
+
+@media (max-width: 500px) {
+  header h1 { font-size: 21px; }
+  .days { grid-template-columns: 1fr 1fr; }
+}
+------MultipartBoundary--r49j95LwXnafFg4OEYL8FwMY5KfZkM5IhLKLu2fYUc----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-c7f57155-e8fa-453a-99d3-2fbf1d164179@mhtml.blink
+
+@charset "utf-8";
+
+﻿html[console-only], html[console-only] body { width: 100%; height: 100%; margin: 0px; overflow: hidden; background: var(--primary-color, #313131) !important; }
+
+c-console { --console-background: #313131; --console-background-text: #eee; --console-surface: #313131; --console-surface-text: #eee; --console-control: #414141; --console-control-text: #d6d3d3; --console-active: #555; --console-active-text: #fff; --console-border: rgba(204, 204, 204, 0.35); --console-muted: #aaa; --console-placeholder: #929292; --console-scrollbar: #666; --console-danger: #ff9b9b; --console-danger-fill: #a00000; --console-warning-fill: #ffb95c; --console-error-surface: #422; --console-warning-surface: #633; --console-link: #99f; --console-accent: rgb(120, 105, 225); --console-function: rgb(145, 136, 168); --console-success: rgb(59, 161, 59); box-sizing: border-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; position: fixed; top: var(--console-viewport-top, 0); left: var(--console-viewport-left, 0); width: var(--console-viewport-width, 100vw); height: var(--console-viewport-height, 100dvh); min-height: 0px; overflow: hidden; z-index: 99998; background: var(--console-background); color: var(--console-background-text); font-family: var(--app-font-family, Verdana, Geneva, Tahoma, sans-serif); color-scheme: dark; }
+
+html[console-only] c-console { --console-background: var(--primary-color, #313131); --console-background-text: var(--primary-text-color, #eee); --console-surface: var(--secondary-color, var(--primary-color, #313131)); --console-surface-text: var( --secondary-text-color, var(--primary-text-color, #eee) ); --console-control: var( --popup-background-color, var(--secondary-color, #414141) ); --console-control-text: var( --popup-text-color, var(--secondary-text-color, #d6d3d3) ); --console-active: var(--active-color, #555); --console-active-text: var(--active-text-color, #fff); --console-border: var(--border-color, rgba(204, 204, 204, 0.35)); --console-muted: var(--secondary-text-color, #aaa); --console-placeholder: var(--secondary-text-color, #929292); --console-scrollbar: var(--scrollbar-color, #666); --console-danger: var(--error-text-color, #ff9b9b); --console-danger-fill: var(--danger-color, #a00000); --console-warning-fill: var(--error-text-color, #ffb95c); --console-link: var(--link-text-color, #99f); --console-accent: var(--active-color, rgb(120, 105, 225)); --console-function: var(--secondary-text-color, rgb(145, 136, 168)); --console-success: var(--success-text-color, rgb(59, 161, 59)); }
+
+html[theme-type="light"] c-console { color-scheme: light; }
+
+c-console[standalone] { position: absolute; inset: 0px; width: auto; height: auto; }
+
+.__c-action { min-height: 32px; padding: 5px 8px; border: 0px; border-radius: 3px; background: rgba(0, 0, 0, 0); color: var(--console-surface-text); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 0.76rem; touch-action: manipulation; }
+
+.__c-action:active { background: var(--console-active); color: var(--console-active-text); }
+
+.__c-action-danger { color: var(--console-danger); }
+
+.__c-context { box-sizing: border-box; max-width: 112px; min-height: 32px; padding: 4px 20px 4px 6px; border: 0px; border-radius: 3px; outline: none; background: var(--console-control); color: var(--console-control-text); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 0.7rem; }
+
+.__c-context:focus-visible { outline: 1px solid var(--console-active); outline-offset: -1px; }
+
+.__c-context:disabled { opacity: 0.55; }
+
+c-output { display: block; -webkit-box-flex: 1; flex: 1 1 100%; min-height: 0px; overflow: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--console-scrollbar) rgba(0,0,0,0); }
+
+c-output > .variable-virtual-spacer, c-output > .variable-virtual-items { display: block; width: 100%; }
+
+c-input { box-sizing: border-box; display: flex; -webkit-box-align: end; align-items: flex-end; gap: 6px; width: 100%; min-height: 96px; padding: 7px 7px max(8px,env(safe-area-inset-bottom)); background: var(--console-surface); color: var(--console-surface-text); }
+
+c-input::before { content: ">>"; align-self: flex-start; padding-top: 9px; color: var(--console-accent); font: italic 13px / 1 "Courier New", Courier, monospace; }
+
+#__c-input { box-sizing: border-box; display: block; -webkit-box-flex: 1; flex: 1 1 auto; width: 100%; min-width: 0px; min-height: 82px; max-height: 120px; margin: 0px; padding: 7px 3px; border: 0px; outline: none; resize: none; overflow-y: auto; background: rgba(0, 0, 0, 0); color: var(--console-surface-text); font: 13px / 1.45 "Courier New", Courier, monospace; caret-color: currentcolor !important; }
+
+c-input-actions { display: flex; -webkit-box-flex: 0; flex: 0 0 auto; -webkit-box-align: center; align-items: center; gap: 2px; padding-bottom: 2px; }
+
+#__c-input::-webkit-input-placeholder { color: var(--console-placeholder); opacity: 0.75; }
+
+#__c-input::placeholder { color: var(--console-placeholder); opacity: 0.75; }
+
+#__c-input:disabled { opacity: 0.55; }
+
+c-message { box-sizing: border-box; display: flex; position: relative; flex-wrap: wrap; min-height: 45px; padding: 5px 7px 4px; border-bottom: 1px solid var(--console-border); background: var(--console-surface); color: var(--console-surface-text); font-size: 0.9rem; }
+
+c-message[log-level="error"] { background: color-mix(in srgb, var(--console-danger-fill) 16%, var(--console-surface)); }
+
+c-message[log-level="warn"] { background: color-mix(in srgb, var(--console-warning-fill) 20%, var(--console-surface)); }
+
+c-text, c-code { box-sizing: border-box; display: block; width: 100%; max-width: 100%; padding: 2px 4px; overflow-wrap: anywhere; white-space: pre-wrap; font: 0.9rem / 1.45 Verdana, Geneva, Tahoma, sans-serif; }
+
+c-code { position: relative; padding-right: 42px; overflow-x: auto; color: var(--console-surface-text); font-family: "Courier New", Courier, monospace; white-space: pre-wrap; cursor: pointer; }
+
+c-code::before { content: ">>"; padding-right: 5px; font-style: italic; }
+
+c-code::after { content: "use"; position: absolute; top: 1px; right: 1px; padding: 1px 6px; border-radius: 3px; background: var(--console-active); color: var(--console-active-text); font: .62rem/1.4 var(--app-font-family, sans-serif); }
+
+c-stack { box-sizing: border-box; display: flex; -webkit-box-flex: 1; flex: 1 0 100%; -webkit-box-pack: justify; justify-content: space-between; gap: 8px; min-width: 0px; margin-top: 3px; padding: 3px 4px 0px; color: var(--console-muted); opacity: 0.8; font-size: 0.7rem; }
+
+c-date, c-trace { min-width: 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+c-trace { direction: rtl; text-align: right; }
+
+c-object { color: var(--console-link); text-decoration: underline; }
+
+c-line { display: block; }
+
+c-key { margin-right: 5px; color: var(--console-accent); font-size: 0.9rem; }
+
+c-text.__c-boolean, c-text.__c-number, c-text.__c-symbol { color: var(--console-accent); }
+
+c-text.__c-function { color: var(--console-function); font-family: "Courier New", Courier, monospace; }
+
+c-text.__c-object, c-text.__c-undefined { color: var(--console-success); }
+
+c-text.__c-string { color: var(--console-success); }
+
+c-text.__c-string:not(.no-quotes)::before { content: "\""; margin-right: 2px; }
+
+c-text.__c-string:not(.no-quotes)::after { content: "\""; margin-left: 2px; }
+
+c-group { display: none; margin-left: 14px; }
+
+c-type[type="body-toggler"] { cursor: pointer; user-select: none; }
+
+c-type[type="body-toggler"].__show-data + c-group { display: block; }
+
+c-type[type="body-toggler"]::before { display: inline-block; content: "▸"; margin-right: 3px; }
+
+c-type[type="body-toggler"]::after { content: " {…}"; }
+
+c-type[type="body-toggler"].__show-data::before { content: "▾"; }
+
+c-type[type="body-toggler"].__show-data::after { display: none; }
+
+c-table { display: table; width: 100%; border-collapse: collapse; color: var(--console-surface-text); }
+
+c-table c-row { display: table-row; border-bottom: 1px solid var(--console-border); }
+
+c-table c-cell { display: table-cell; padding: 5px; }
+
+c-toggler { position: fixed; top: 0px; left: 0px; width: 30px; height: 30px; border-radius: 50%; z-index: 99999; opacity: 0.5; background-color: rgb(255, 255, 255); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAE9JREFUOMtjYBh0gBHO+k+cSkYilcPVMpHqpIHRwIgUFERp+I8SekQ5CY8WXH7AqYWJyGglqIERV3QykaYcV7DiSSwsODw8yJIGdTPQIAQAg9gKJl7UINwAAAAASUVORK5CYII="); background-position: center center; background-repeat: no-repeat; background-size: 24px auto; box-shadow: rgba(0, 0, 0, 0.4) -2px 2px 8px; touch-action: none; }
+
+c-toggler:active { opacity: 0.8; }
+
+[hidden] { display: none !important; }
+
+@supports not (height: 100dvh) {
+  c-console { height: var(--console-viewport-height, 100vh); }
+}
+------MultipartBoundary--r49j95LwXnafFg4OEYL8FwMY5KfZkM5IhLKLu2fYUc------
